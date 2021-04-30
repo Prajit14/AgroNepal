@@ -1,5 +1,6 @@
 package com.example.agronepal.agronews;
 
+import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -25,7 +26,7 @@ public class news extends AppCompatActivity {
 
      //RSS LINK
     private final String RSS_link="https://feeds.bbci.co.uk/nepali/rss.xml";
-    private final String RSS_to_Json_API = " https://api.rss2json.com/v1/api.json?rss_url=";
+    private final String RSS_to_Json_API ="https://api.rss2json.com/v1/api.json?rss_url=";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,7 +57,7 @@ public class news extends AppCompatActivity {
                 mdialog.setMessage("please have patient...");
                 mdialog.show();
             }
-
+            @SuppressLint("StaticFieldLeak")
             @Override
             protected String doInBackground(String... params) {
                 String result;
@@ -78,7 +79,6 @@ public class news extends AppCompatActivity {
         StringBuilder url_get_data = new StringBuilder(RSS_to_Json_API);
         url_get_data.append(RSS_link);
         loadRSSAsync.execute(url_get_data.toString());
-
     }
 
     @Override

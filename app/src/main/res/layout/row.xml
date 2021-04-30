@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:padding="10dp"
     android:layout_marginBottom="10dp"
-    app:cardCornerRadius="20dp"
+    app:cardCornerRadius="18dp"
     app:cardElevation="10dp"
     >
 
@@ -35,13 +35,10 @@
         <TextView
             android:text="Content"
             android:id="@+id/txtContent"
-            android:textSize="14sp"
+            android:textSize="16sp"
             android:textStyle="normal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
-
-
-
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>

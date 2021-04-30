@@ -19,6 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/amarante"
+
             android:padding="10dp"
             android:text="@string/agro_nepal"
             android:textAlignment="center"
@@ -28,12 +29,16 @@
         </TextView>
 
         <RelativeLayout
+
             android:layout_width="match_parent"
-            android:layout_height="160dp">
+            android:layout_height="160dp"
+
+            android:clickable="true">
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="130dp"
+                android:id="@+id/relative_layout"
                 android:layout_alignParentEnd="true"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
@@ -59,13 +64,12 @@
                     android:layout_alignParentBottom="true"
                     android:background="#00000000"
                     android:padding="5dp">
-                    //android:text="Open"
-
-
                 </Button>
 
             </RelativeLayout>
+
             <ImageView
+
                 android:layout_width="120dp"
                 android:layout_height="180dp"
                 android:src="@drawable/plant_identify"
@@ -80,6 +84,8 @@
             android:layout_width="match_parent"
             android:layout_height="130dp"
             android:layout_margin="20dp"
+            android:id="@+id/relative_layout_1"
+            android:clickable="true"
             android:background="#0c8ec9">
 
             <ImageView
@@ -102,16 +108,7 @@
 
             </TextView>
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Open"
-                android:background="#00000000"
-                android:padding="5dp"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentBottom="true">
 
-            </Button>
         </RelativeLayout>
 
 
@@ -133,15 +130,6 @@
 
             </TextView>
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Open"
-                android:background="#00000000"
-                android:padding="5dp"
-                android:layout_alignParentBottom="true">
-
-            </Button>
 
             <ImageView
                 android:layout_width="120dp"
@@ -181,16 +169,6 @@
 
             </TextView>
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Open"
-                android:background="#00000000"
-                android:padding="5dp"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentBottom="true">
-
-            </Button>
         </RelativeLayout>
 
 
