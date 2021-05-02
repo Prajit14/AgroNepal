@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2faf3"
+
+
+    tools:context=".blog.MainBlogList">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+
+            android:padding="10dp"
+            android:text="Blog about farming"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="34sp">
+
+        </TextView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_margin="10dp"
+            android:id="@+id/blog_relative_layout_1"
+            android:clickable="true"
+            android:background="#0c8ec9">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/rice"/>
+            <TextView
+                android:id="@+id/blog_title_rice"
+                android:textSize="30sp"
+                android:background="#aae7f293"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                android:text="Rice"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_margin="10dp"
+            android:id="@+id/blog_relative_layout_2"
+            android:clickable="true"
+            android:background="#0c8ec9">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/wheat"/>
+            <TextView
+                android:id="@+id/blog_title_whear"
+                android:textSize="30sp"
+                android:background="#aae7f293"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                android:text="Wheat"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_margin="10dp"
+            android:id="@+id/blog_relative_layout_3"
+            android:clickable="true"
+            android:background="#0c8ec9">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/potato"/>
+            <TextView
+                android:id="@+id/blog_title_potato"
+                android:textSize="30sp"
+                android:background="#aae7f293"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                android:text="Potato"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_margin="10dp"
+            android:id="@+id/blog_relative_layout_4"
+            android:clickable="true"
+            android:background="#0c8ec9">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/maize"/>
+            <TextView
+                android:id="@+id/blog_title_maize"
+                android:textSize="30sp"
+                android:background="#aae7f293"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                android:text="Maize"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

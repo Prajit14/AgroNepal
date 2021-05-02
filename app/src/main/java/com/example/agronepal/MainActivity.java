@@ -11,7 +11,6 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import com.example.agronepal.Dashboard.Dashboard;
-import com.example.agronepal.agronews.news;
 
 public class MainActivity extends AppCompatActivity {
 

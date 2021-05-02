@@ -5,93 +5,318 @@
     <string name="news">News</string>
     <string name="title_activity_newspage">ScrollingActivity</string>
     <string name="large_text">
-        "Material is the metaphor.\n\n"
-
-        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
-        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
-        "technologically advanced and open to imagination and magic.\n"
-        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
-        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
-        "flexibility of the material creates new affordances that supercede those in the physical "
-        "world, without breaking the rules of physics.\n"
-        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
-        "interact, and exist in space and in relation to each other. Realistic lighting shows "
-        "seams, divides space, and indicates moving parts.\n\n"
-
-        "Bold, graphic, intentional.\n\n"
-
-        "The foundational elements of print based design typography, grids, space, scale, color, "
-        "and use of imagery guide visual treatments. These elements do far more than please the "
-        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
-        "imagery, large scale typography, and intentional white space create a bold and graphic "
-        "interface that immerse the user in the experience.\n"
-        "An emphasis on user actions makes core functionality immediately apparent and provides "
-        "waypoints for the user.\n\n"
-
-        "Motion provides meaning.\n\n"
-
-        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
-        "inflection points that initiate motion, transforming the whole design.\n"
-        "All action takes place in a single environment. Objects are presented to the user without "
-        "breaking the continuity of experience even as they transform and reorganize.\n"
-        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
-        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
-
-        "3D world.\n\n"
-
-        "The material environment is a 3D space, which means all objects have x, y, and z "
-        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
-        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
-        "position along the z-axis and has a standard 1dp thickness.\n"
-        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
-        "emulated by manipulating the y-axis.\n\n"
-
-        "Light and shadow.\n\n"
-
-        "Within the material environment, virtual lights illuminate the scene. Key lights create "
-        "directional shadows, while ambient light creates soft shadows from all angles.\n"
-        "Shadows in the material environment are cast by these two light sources. In Android "
-        "development, shadows occur when light sources are blocked by sheets of material at "
-        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
-        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
-
-        "Resting elevation.\n\n"
-
-        "All material objects, regardless of size, have a resting elevation, or default elevation "
-        "that does not change. If an object changes elevation, it should return to its resting "
-        "elevation as soon as possible.\n\n"
-
-        "Component elevations.\n\n"
-
-        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
-        "does not vary from 6dp in one app to 16dp in another app).\n"
-        "Components may have different resting elevations across platforms, depending on the depth "
-        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
-
-        "Responsive elevation and dynamic elevation offsets.\n\n"
-
-        "Some component types have responsive elevation, meaning they change elevation in response "
-        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
-        "changes are consistently implemented using dynamic elevation offsets.\n"
-        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
-        "to the component’s resting state. They ensure that elevation changes are consistent "
-        "across actions and component types. For example, all components that lift on press have "
-        "the same elevation change relative to their resting elevation.\n"
-        "Once the input event is completed or cancelled, the component will return to its resting "
-        "elevation.\n\n"
-
-        "Avoiding elevation interference.\n\n"
-
-        "Components with responsive elevations may encounter other components as they move between "
-        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
-        "through other material, components avoid interfering with one another any number of ways, "
-        "whether on a per component basis or using the entire app layout.\n"
-        "On a component level, components can move or be removed before they cause interference. "
-        "For example, a floating action button (FAB) can disappear or move off screen before a "
-        "user picks up a card, or it can move if a snackbar appears.\n"
-        "On the layout level, design your app layout to minimize opportunities for interference. "
-        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
-        "when a user tries to pick up one of cards.\n\n"
     </string>
+
     <string name="action_settings">Settings</string>
+
+
+    <string name="cropfirst"> Rice </string>
+
+    <string name="riceheading1">Introduction </string>
+    <string name="riceheading2">Seed Selection </string>
+    <string name="riceheading3">Land Preparation </string>
+    <string name="riceheading4">Plantation Techniques </string>
+    <string name="riceheading5">Fertilizer</string>
+    <string name="riceheading6">Irrigation</string>
+    <string name="riceheading7">Harvesting</string>
+    <string name="riceheading8">Production</string>
+
+
+    <string-array name="crop1">
+
+        <item name="riceheading1">Introduction</item>
+        <item name="riceheading2">Seed Selection</item>
+        <item name="riceheading3">Land Preparation</item>
+        <item name="riceheading4">Plantation Techniques</item>
+        <item name="riceheading5">Fertilizer</item>
+        <item name="riceheading6">Irrigation</item>
+        <item name="riceheading7">Harvesting</item>
+        <item name="riceheading8">Production</item>
+
+    </string-array>
+
+
+    <string name="rice1">
+धान प्रमुख खाद्यान्न बाली हो । पहाड र तराईमा यसको खेती वर्षायाममा गरिन्छ । तल्लो पहाड तथा खोचको सिञ्चित क्षेत्रमा चैते धान पनि लगाउने गरिन्छ । उन्नत प्रविधिबाट डेढदेखि दुई गुणा उत्पादन बढाउन सकिन्छ ।
+
+धान विश्वका आधा भन्दा बढी जनसंख्या अर्थात् तीन अर्ब ५० करोड मानिसको खाद्यान्नको प्रमुख आधार नै धान हो । एशियाली मुलुकहरूलाई त धानको बास्केट नै मानिन्छ ।
+
+किनभने ९० प्रतिशतभन्दा बढी धानको उत्पादन र खपत पनि एशियाली मुलुकमा नै हुने गरेको छ । विश्वमा जति धान उत्पादन हुन्छ त्यसको ६/७ प्रतिशत मात्र बिक्री वितरणका लागि बजारमा जान्छ ।
+
+</string>
+
+    <string name="rice2">
+
+बीऊदर
+
+उन्नत जातको बीऊ प्रतिरोपनी २.५ केजी, प्रति कठ्ठा १.७ केजी, वर्णशंकर जातको बीऊ प्रति रोपनी ७५० ग्राम, प्रति कठ्ठा ५०० ग्राम मिलाएर छर्नु पर्दछ ।
+
+बीऊ उपचारः
+
+बेभिस्टीन २ ग्राम प्रतिकेजी । बीऊलाई २४ घण्टा पानीमा भिजाउने र ४८ घण्टा बोरामा राखी टुसाउने ।
+
+बीऊलाई धुलो वा हिले ब्याडमा छरी बेर्ना तयार गर्ने । बेर्नाको उमेर २०–२५ दिनको बेर्ना सार्नको लागि उपयुक्त हुन्छ । बेर्नामा ४ पात लागेको हुनुपर्छ ।
+
+</string>
+
+    <string name="rice3">
+
+रोपाईं गर्नुभन्दा १ हप्ता अगाडि काल्ला खुर्कने, आली लगाउने र मुसाका प्वाल टाल्ने । गह्रामा पानी जमाएर झारपात कुहाउने ।
+
+जमिनमा पानी लगाइ दुई पटक राम्रोसँग जोतेर हिल्याउने र पाटा लगाइ सम्याउने । तयारी जमिनमा चारदेखि पाँच सेमीसम्म पानी जमाउने ।
+
+</string>
+
+    <string name="rice4">
+पंक्तिको दूरी २० सेमी (एक वित्ता) र बोटको दूरी २० सेमी राख्ने । वर्णशंकर जात ३० सेमी लाइन र २५ सेमी बोटको दूरीमा लगाउने ।
+
+उन्नत जातको लागि एक ठाउँमा दुईदेखि तीन बेर्ना रोप्ने । वर्णशंकर जातको लागि एक ठाउँमा १ बेर्ना रोप्ने ।
+
+रोपाईं गर्दा ३ सेमी भन्दा गहिरो नरोप्ने । गहिरो रोपेमा गाँज हाल्न ढिलो हुन्छ । छरुवा विधिबाट समेत धान खेती गर्न सकिन्छ ।
+
+यो विधिमा वैशाख र जेठ महिनामा पाँच केजी प्रति रोपनी वा ३.३ केजी प्रति कठ्ठा बीऊ छर्नुपर्ने हुन्छ । यो विधिबाट खेती गर्दा झारपात नियन्त्रण गर्न अति आवश्यक हुन्छ ।
+</string>
+
+    <string name="rice5">
+रासायनिक मलको परिमाण माटोको उर्वराशक्ति, अघिल्लो बाली, कम्पोष्ट मलको परिमाण र धानको जातमा भर पर्दछ ।
+
+उन्नत जातको लागि सिफारिस मलखादको मात्रा । वर्णशंकर जातको धान लगाउँदा उन्नत जातको भन्दा डेढ गुणा बढीको दरले मलखाद तथा रासायनिक मलको प्रयोग गर्नुपर्छ ।
+
+मलखाद व्यवस्थापन धानबालीमा मलको प्रयोग गर्दा स्थानीय स्रोतको परिचालनमा हरियो मल (सकेसम्म कोशेबाली), एजोला, गोठेमल, कम्पोष्ट मल, पिना, ब्लुग्रिन एल्गी आदि प्रयोगमा ल्याउन सक्दछौं ।
+
+यी मलहरू प्रयोग गरेपछि नपुग मात्रा मात्र रासायनिक मलको रूपमा दिनु पर्दछ ।
+
+धानबालीको लागि रासायनिक सलको सिफारिस मात्रा १००–३०–३० केजी नाइट्रोजन फस्फोरस पोटास प्रतिहेक्टर सिंचित क्षेत्रको लागि छ भने असिंचित क्षेत्रको लागि ६०–२०–२० केजी नाइट्रोजन फस्फोरस पोटास प्रतिहेक्टर छ ।
+
+धान बालीमा जिंक तत्वको कमी प्रायः देशभरी नै देखिएको छ ।
+</string>
+
+    <string name="rice6">
+बेर्ना रोपेको २०–३० दिन सम्म ४–५ सेमी पानी खेतमा रहनुपर्छ । निकास सुविधा भए १५ दिनको फरकमा ४–५ दिन पानी काटी जमिन सुख्खा राख्दा राम्रो हुन्छ ।
+</string>
+
+    <string name="rice7">
+८०–९० प्रतिशत दाना पाकेको बेला धान काट्दा गेडा झर्ने समस्या हुँदैन । स्थानीय विधि वा थ्रेसर प्रयोग गरी चुट्ने र घाममा राम्ररी सुकाएर सफा गरी भित्र्याउने ।
+</string>
+
+    <string name="rice8">
+उत्पादन जात, मौसम तथा बाली व्यवस्थापनमा निर्भर गर्दछ । उन्नत जातको उत्पादन २०० केजी प्रति रोपनी वा १३३ केजी प्रति कठ्ठा । वर्णशंकर जातको उत्पादन ४०० केजी प्रति रोपनी वा २६६ केजी प्रति कठ्ठा ।
+
+तल यस सम्बन्धि केही जिज्ञासा अनि उत्तर पनि हेरौं ।
+
+धानमा पात बेरुवा कीरा नियन्त्रण गर्न के गर्नुपर्ला ?
+
+धानमा ५ प्रतिशत बोटहरुमा नोक्सान पुर्याेउना साथ मालाथायन २ मि.लि. वा साइपरमेथ्रीन (१० ई.सी.) ०.४ मि. लि. प्रति लिटर पानीमा मिसाइ छर्कने ।
+
+धानको फड्के कीरालाइ रसायनिक तरिकाले ब्यवस्थापान कसरी गर्ने ?
+
+रसायनिक विषादि ईमिडागोल्ड (ईमिडाक्लोप्रिड) ०.५ मि.लि. प्रति लि. पानीमा मिसाएर छर्ने ।
+
+धानको फड्के कीरालाई जैबिक तरिकाले ब्यवस्थापन कसरी गर्न सकिन्छ ?
+
+यो कीरा बत्तीमा आकर्षित हुने हुनाले यिनलाई बत्तीको फन्दामा पारेर मार्न सकिन्छ ।
+
+धानमा गवारो कीराको ब्यवस्थापान कसरी गर्ने ?
+
+रोगर वा ईमिडागोल्ड (ईमिडाक्लोप्रिड) २ ग्राम प्रति लिटर पानीमा मिसाइ प्रयोग गर्न सकिन्छ ।
+
+धानमा खैरा रोगको रोकथाम गर्न के गर्नुपर्ला ?
+
+धान रोपी सकेपछि यो समस्या आएमा ५ किलो ग्राम जि सल्फेट र २.५ किलो ग्राम चुन (घर पोत्ने चुन) प्रति हजार लिटर पानीमा मिसाई एक हेक्टरका दरले छर्कने ।
+</string>
+
+
+    <string name="cropsecond"> Wheat(गहुँ)</string>
+
+    <string name="wheatheading1">Introduction </string>
+    <string name="wheatheading2">Climate</string>
+    <string name="wheatheading3">Water Limitation</string>
+    <string name="wheatheading4">Land Selection</string>
+    <string name="wheatheading5">Breeds</string>
+    <string name="wheatheading6">Land Preparation</string>
+    <string name="wheatheading7"> Seed Reduirements</string>
+    <string name="wheatheading8"> Fertilizers </string>
+    <string name="wheatheading9">Plantation Time</string>
+    <string name="wheatheading10">Irrigation</string>
+    <string name="wheatheading11">Harvesting</string>
+
+    <string-array name="crop2">
+        <item name="wheatheading1">Introduction </item>
+        <item name="wheatheading2">Climate</item>
+        <item name="wheatheading3">Water Limitation</item>
+        <item name="wheatheading4">Land Selection</item>
+        <item name="wheatheading5">Breeds</item>
+        <item name="wheatheading6">Land Preparation</item>
+        <item name="wheatheading7"> Seed Reduirements</item>
+        <item name="wheatheading8"> Fertilizers </item>
+        <item name="wheatheading9">Plantation Time</item>
+        <item name="wheatheading10">Irrigation</item>
+        <item name="wheatheading11">Harvesting</item>
+
+    </string-array>
+
+
+    <string name="wheat1">
+        गहुँ (Triticum aestivum) बिश्वोमा सबैभन्दा धेरै उत्पदान हुने र नेपालको लागि धान र मकै पछीको महत्त्वपूर्ण अन्न बाली हो।
+        गाउँ घरमा यस्को रोटी, ढिडो, हलुवा, पुरी बनायर सेवन गर्नेगरिन्छ भने सहर बजारमा यस्को  पाउरोटी, केक, बिस्कुट, चाउचाउ बनाउन प्रयोग गरिन्छ।गहुँको भुस र दानाहरु पनि गाई भैसिलाइ खुवाउन प्रयोग गरिन्छ।
+        गहुँको उत्पति दक्षिण पश्चिम एसिया बाट भएको मानिन्छ।
+    </string>
+
+    <string name="wheat2">
+        समुन्द्र सतह बाट ३३०० मिटरसम्म गहुँ लगाउन सकिन्छ। बीउ उम्रनको लागि २० देखि २५ डिग्री सेल्सियस तापक्रम उपयुक्त मानिन्छ भने पाक्नको लागि औसत तापक्रम १४ देखि १५ डिग्री सेल्सियस हुनु पर्दछ।
+        फुल खेल्ने बेलामा  जिरो डिग्री भन्दा कम तापक्रम भयमा दाना लग्दैन र बाली पाक्ने बेलामा तापक्रम बढी भयमा (२५ डिग्री भन्दा माथी) छिटो दाना पाक्छ र उत्पादन घट्छ।
+    </string>
+
+    <string name="wheat3">
+        बीउ छर्ने बित्तिकै पानी पर्यो भने बीउ राम्रो सँग उम्रन पाउँदैन।
+        बढी पानी जम्मा हुने ठाउँ गहुँको लागि उपयुक्त हुँदैन।
+        सामान्यतया धान र गहुँ खेतीको लागि १३००-१८०० मिलिमिटर पानी चाहिन्छ।
+    </string>
+
+    <string name="wheat4">
+        पि.यच-५.५ देखि ७.५, दोमट माटो। पानी नजम्ने वा पानीको निकास राम्रो भएको ठाउँ।
+    </string>
+
+    <string name="wheat5">
+        तराई: बि. यल.१४७३, बि. यल ११३५, भृकुटी , गौतम, आदित्य, बिजय।
+        मध्य पहाड: डव्लु के १२०४, पासङ्गल्हामु, अन्नपूर्ण ३, अन्नपूर्ण ४।
+        उच्च पहाड: डव्लु के १२०४, पासङ्गल्हामु, अन्नपूर्ण १, अन्नपूर्ण ३।
+    </string>
+    <string name="wheat6">
+        २० देखि ३० सेन्टिमिटर गहिरो हुनेगरी जोत्ने।
+        २-३ पटक जोतेर माटो मसिनो बनाउने र चिस्यान जोगाउनको लागि प्रत्येक जोताइ पछाडी पटाहा लगाउने।
+    </string>
+
+    <string name="wheat7">
+        १२० केजी प्रती हेक्टर (६ केजी प्रती रोपनि)।
+        मिश्रित बाली लगाउदा ४ केजी गहुँको बिउसंग दुई केजि केराउ वा २५० ग्राम तोरी प्रती रोपनी रोप्नुपर्छ।
+    </string>
+
+    <string name="wheat8">
+        संचित क्षेत्रकोलागि १००:५०:५० र असंचित क्षेत्रकाेलागी ५०:५०:२० केजि नाईट्रोजन, फस्फोरस र पोटास सँगै १५ टन प्राङ्गारिक मल एक हेक्टरमा हाल्नुपर्छ।
+        यो मात्रा पूरा गर्न एक कठ्ठामा संचित क्षेत्रकोलागि प्राङ्गारिक मल २० डोको(५०० केजी), युरिया ५.५ केजी, डियपी ३.२ केजी, म्युरेट अफ पोटास १.५ केजी र असंचित क्षेत्रकाेलागी युरिया २.२ केजी,
+        डियपी ३.२ केजी, म्युरेट अफ पोटास १ केजी हाल्नु पर्छ।
+    </string>
+
+    <string name="wheat9">
+        गहुँ छर्ने समयलाई अत्यन्तै ध्यान दिनु पर्छ।
+        चाँडो छर्दा बालिको पाक्ने अवधी लामो हुने र उत्पादन राम्रो नहुन सक्छ।
+        यदि ढिलो छरेमा वाली फुल्ने समयमा सुख्खा हावा चल्ने र माटोको चिस्यान कमी हुने भएकोले उत्पादनमा ठूलो ह्रास आउँछ।
+        त्यसैले यो बलिलाई नेपालको हावापानी अनुसार कार्तिकको अन्तिम हप्ता देखि मंसिरको पहिलो हप्ता सम्म लगाउन उत्तम हुन्छ।
+    </string>
+    <string name="wheat10">
+        मुकुट जरा(क्राउन रूट) आउने अबस्था, पसाउने अबस्था र दाना भरिने अबस्थाको सिचाई बढी महत्त्वपूर्ण हुन्छ।
+        बिउँ छर्नु भन्दा ७/१० दिन अगाडि सिचाई  दिन सके बिउँको उमार शक्ति बढ्छ।
+    </string>
+    <string name="wheat11">
+        गहुँको बालामुनिको डाठँ पहेलो भएपछि गहुँ पाकेको मानिन्छ।
+        बाला हातमा माड्दा दाना राम्ररी छुट्यो भने गहुँ काट्न थाले हुन्छ।
+        गहुँको दानालाई टोक्दा कुटुक्क हुन्छ भने काट्न सुरु गर्नुपर्छ।
+        काटेपछी २-३ दिन सुकायर बाली चुट्नु पर्छ।
+    </string>
+
+    <string name="cropthird"> Unknown</string>
+
+
+    <string name="heading1">Introduction </string>
+    <string name="heading2">Seed Selection </string>
+    <string name="heading3">Land Preparation </string>
+    <string name="heading4">Plantation Techniques </string>
+    <string name="heading5">Fertilizer</string>
+    <string name="heading6">Irrigation</string>
+    <string name="heading7">Harvesting</string>
+    <string name="heading8">Production</string>
+
+
+    <string name="c1">
+धान प्रमुख खाद्यान्न बाली हो । पहाड र तराईमा यसको खेती वर्षायाममा गरिन्छ । तल्लो पहाड तथा खोचको सिञ्चित क्षेत्रमा चैते धान पनि लगाउने गरिन्छ । उन्नत प्रविधिबाट डेढदेखि दुई गुणा उत्पादन बढाउन सकिन्छ ।
+
+धान विश्वका आधा भन्दा बढी जनसंख्या अर्थात् तीन अर्ब ५० करोड मानिसको खाद्यान्नको प्रमुख आधार नै धान हो । एशियाली मुलुकहरूलाई त धानको बास्केट नै मानिन्छ ।
+
+किनभने ९० प्रतिशतभन्दा बढी धानको उत्पादन र खपत पनि एशियाली मुलुकमा नै हुने गरेको छ । विश्वमा जति धान उत्पादन हुन्छ त्यसको ६/७ प्रतिशत मात्र बिक्री वितरणका लागि बजारमा जान्छ ।
+
+</string>
+
+    <string name="c2">
+
+बीऊदर
+
+उन्नत जातको बीऊ प्रतिरोपनी २.५ केजी, प्रति कठ्ठा १.७ केजी, वर्णशंकर जातको बीऊ प्रति रोपनी ७५० ग्राम, प्रति कठ्ठा ५०० ग्राम मिलाएर छर्नु पर्दछ ।
+
+बीऊ उपचारः
+
+बेभिस्टीन २ ग्राम प्रतिकेजी । बीऊलाई २४ घण्टा पानीमा भिजाउने र ४८ घण्टा बोरामा राखी टुसाउने ।
+
+बीऊलाई धुलो वा हिले ब्याडमा छरी बेर्ना तयार गर्ने । बेर्नाको उमेर २०–२५ दिनको बेर्ना सार्नको लागि उपयुक्त हुन्छ । बेर्नामा ४ पात लागेको हुनुपर्छ ।
+
+</string>
+
+    <string name="c3">
+
+रोपाईं गर्नुभन्दा १ हप्ता अगाडि काल्ला खुर्कने, आली लगाउने र मुसाका प्वाल टाल्ने । गह्रामा पानी जमाएर झारपात कुहाउने ।
+
+जमिनमा पानी लगाइ दुई पटक राम्रोसँग जोतेर हिल्याउने र पाटा लगाइ सम्याउने । तयारी जमिनमा चारदेखि पाँच सेमीसम्म पानी जमाउने ।
+
+</string>
+
+    <string name="c4">
+पंक्तिको दूरी २० सेमी (एक वित्ता) र बोटको दूरी २० सेमी राख्ने । वर्णशंकर जात ३० सेमी लाइन र २५ सेमी बोटको दूरीमा लगाउने ।
+
+उन्नत जातको लागि एक ठाउँमा दुईदेखि तीन बेर्ना रोप्ने । वर्णशंकर जातको लागि एक ठाउँमा १ बेर्ना रोप्ने ।
+
+रोपाईं गर्दा ३ सेमी भन्दा गहिरो नरोप्ने । गहिरो रोपेमा गाँज हाल्न ढिलो हुन्छ । छरुवा विधिबाट समेत धान खेती गर्न सकिन्छ ।
+
+यो विधिमा वैशाख र जेठ महिनामा पाँच केजी प्रति रोपनी वा ३.३ केजी प्रति कठ्ठा बीऊ छर्नुपर्ने हुन्छ । यो विधिबाट खेती गर्दा झारपात नियन्त्रण गर्न अति आवश्यक हुन्छ ।
+</string>
+
+    <string name="c5">
+रासायनिक मलको परिमाण माटोको उर्वराशक्ति, अघिल्लो बाली, कम्पोष्ट मलको परिमाण र धानको जातमा भर पर्दछ ।
+
+उन्नत जातको लागि सिफारिस मलखादको मात्रा । वर्णशंकर जातको धान लगाउँदा उन्नत जातको भन्दा डेढ गुणा बढीको दरले मलखाद तथा रासायनिक मलको प्रयोग गर्नुपर्छ ।
+
+मलखाद व्यवस्थापन धानबालीमा मलको प्रयोग गर्दा स्थानीय स्रोतको परिचालनमा हरियो मल (सकेसम्म कोशेबाली), एजोला, गोठेमल, कम्पोष्ट मल, पिना, ब्लुग्रिन एल्गी आदि प्रयोगमा ल्याउन सक्दछौं ।
+
+यी मलहरू प्रयोग गरेपछि नपुग मात्रा मात्र रासायनिक मलको रूपमा दिनु पर्दछ ।
+
+धानबालीको लागि रासायनिक सलको सिफारिस मात्रा १००–३०–३० केजी नाइट्रोजन फस्फोरस पोटास प्रतिहेक्टर सिंचित क्षेत्रको लागि छ भने असिंचित क्षेत्रको लागि ६०–२०–२० केजी नाइट्रोजन फस्फोरस पोटास प्रतिहेक्टर छ ।
+
+धान बालीमा जिंक तत्वको कमी प्रायः देशभरी नै देखिएको छ ।
+</string>
+
+    <string name="c6">
+बेर्ना रोपेको २०–३० दिन सम्म ४–५ सेमी पानी खेतमा रहनुपर्छ । निकास सुविधा भए १५ दिनको फरकमा ४–५ दिन पानी काटी जमिन सुख्खा राख्दा राम्रो हुन्छ ।
+</string>
+
+    <string name="c7">
+८०–९० प्रतिशत दाना पाकेको बेला धान काट्दा गेडा झर्ने समस्या हुँदैन । स्थानीय विधि वा थ्रेसर प्रयोग गरी चुट्ने र घाममा राम्ररी सुकाएर सफा गरी भित्र्याउने ।
+</string>
+
+    <string name="c8">
+उत्पादन जात, मौसम तथा बाली व्यवस्थापनमा निर्भर गर्दछ । उन्नत जातको उत्पादन २०० केजी प्रति रोपनी वा १३३ केजी प्रति कठ्ठा । वर्णशंकर जातको उत्पादन ४०० केजी प्रति रोपनी वा २६६ केजी प्रति कठ्ठा ।
+
+तल यस सम्बन्धि केही जिज्ञासा अनि उत्तर पनि हेरौं ।
+
+धानमा पात बेरुवा कीरा नियन्त्रण गर्न के गर्नुपर्ला ?
+
+धानमा ५ प्रतिशत बोटहरुमा नोक्सान पुर्याेउना साथ मालाथायन २ मि.लि. वा साइपरमेथ्रीन (१० ई.सी.) ०.४ मि. लि. प्रति लिटर पानीमा मिसाइ छर्कने ।
+
+धानको फड्के कीरालाइ रसायनिक तरिकाले ब्यवस्थापान कसरी गर्ने ?
+
+रसायनिक विषादि ईमिडागोल्ड (ईमिडाक्लोप्रिड) ०.५ मि.लि. प्रति लि. पानीमा मिसाएर छर्ने ।
+
+धानको फड्के कीरालाई जैबिक तरिकाले ब्यवस्थापन कसरी गर्न सकिन्छ ?
+
+यो कीरा बत्तीमा आकर्षित हुने हुनाले यिनलाई बत्तीको फन्दामा पारेर मार्न सकिन्छ ।
+
+धानमा गवारो कीराको ब्यवस्थापान कसरी गर्ने ?
+
+रोगर वा ईमिडागोल्ड (ईमिडाक्लोप्रिड) २ ग्राम प्रति लिटर पानीमा मिसाइ प्रयोग गर्न सकिन्छ ।
+
+धानमा खैरा रोगको रोकथाम गर्न के गर्नुपर्ला ?
+
+धान रोपी सकेपछि यो समस्या आएमा ५ किलो ग्राम जि सल्फेट र २.५ किलो ग्राम चुन (घर पोत्ने चुन) प्रति हजार लिटर पानीमा मिसाई एक हेक्टरका दरले छर्कने ।
+</string>
+    <string name="button">Button</string>
+
+
 </resources>

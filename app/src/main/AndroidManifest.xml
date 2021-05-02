@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.agronepal">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,6 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AgroNepal">
+        <activity android:name=".blog.Wheat"></activity>
+        <activity android:name=".blog.Rice" />
+        <activity android:name=".blog.MainBlogList" />
         <activity android:name=".agronews.news" />
         <activity android:name=".News.newspage" />
         <activity android:name=".Dashboard.Dashboard" />

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2faf3"
+    tools:context=".blog.Rice">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/riceheading1"
+            android:textSize="32sp"
+            android:background="#d1ebd4"
+            android:textStyle="bold"/>
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rice1"
+            android:textSize="28sp"
+            android:textStyle="normal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/riceheading2"
+            android:background="#d1ebd4"
+            android:textSize="32sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rice2"
+            android:textSize="28sp"
+            android:textStyle="normal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/riceheading3"
+            android:background="#d1ebd4"
+            android:textSize="32sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rice3"
+            android:textSize="28sp"
+            android:textStyle="normal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/riceheading4"
+            android:background="#d1ebd4"
+            android:textSize="32sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rice4"
+            android:textSize="28sp"
+            android:textStyle="normal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/riceheading5"
+            android:background="#d1ebd4"
+            android:textSize="32sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rice5"
+            android:textSize="28sp"
+            android:textStyle="normal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/riceheading6"
+            android:background="#d1ebd4"
+            android:textSize="32sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rice6"
+            android:textSize="28sp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/riceheading7"
+            android:background="#d1ebd4"
+            android:textSize="32sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rice7"
+            android:textSize="28sp"
+            android:textStyle="normal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/riceheading8"
+            android:background="#d1ebd4"
+            android:textSize="32sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rice8"
+            android:textSize="28sp"
+            android:textStyle="normal"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

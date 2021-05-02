@@ -9,6 +9,7 @@ import android.widget.RelativeLayout;
 
 import com.example.agronepal.R;
 import com.example.agronepal.agronews.news;
+import com.example.agronepal.blog.MainBlogList;
 
 public class Dashboard extends AppCompatActivity {
 
@@ -22,6 +23,16 @@ public class Dashboard extends AppCompatActivity {
             public void onClick(View v) {
                 Intent startActivityIntent = new Intent(getApplicationContext(), news.class);
                 startActivity(startActivityIntent);
+            }
+        });
+
+        RelativeLayout nRelativeLayout = (RelativeLayout) findViewById(R.id.relative_layout_2);
+        nRelativeLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent startActivityIntent = new Intent(getApplicationContext(), MainBlogList.class);
+                startActivity(startActivityIntent);
+
             }
         });
     }
