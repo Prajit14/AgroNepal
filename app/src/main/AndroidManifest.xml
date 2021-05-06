@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AgroNepal">
-        <activity android:name=".blog.Wheat"></activity>
+        <activity android:name=".blog.Potato"></activity>
+        <activity android:name=".blog.Maize" />
+        <activity android:name=".blog.Wheat" />
         <activity android:name=".blog.Rice" />
         <activity android:name=".blog.MainBlogList" />
         <activity android:name=".agronews.news" />

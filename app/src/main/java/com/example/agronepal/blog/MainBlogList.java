@@ -1,14 +1,13 @@
 package com.example.agronepal.blog;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RelativeLayout;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.agronepal.R;
-import com.example.agronepal.agronews.news;
 
 public class MainBlogList extends AppCompatActivity {
 
@@ -31,6 +30,24 @@ public class MainBlogList extends AppCompatActivity {
                 Intent startActivityIntent = new Intent(getApplicationContext(), Wheat.class);
                 startActivity(startActivityIntent);
 
+            }
+        });
+
+        RelativeLayout pRelativeLayout = (RelativeLayout) findViewById(R.id.blog_relative_layout_3);
+        pRelativeLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent startActivityIntent = new Intent(getApplicationContext(), Potato.class);
+                startActivity(startActivityIntent);
+            }
+        });
+
+        RelativeLayout maRelativeLayout = (RelativeLayout) findViewById(R.id.blog_relative_layout_4);
+        maRelativeLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent startActivityIntent = new Intent(getApplicationContext(), Maize.class);
+                startActivity(startActivityIntent);
             }
         });
     }
