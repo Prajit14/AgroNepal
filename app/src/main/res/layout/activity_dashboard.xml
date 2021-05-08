@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg2"
+    android:background="@drawable/splashbackground"
 
 
     tools:context=".Dashboard.Dashboard">
@@ -31,9 +31,7 @@
         <RelativeLayout
 
             android:layout_width="match_parent"
-            android:layout_height="160dp"
-
-            android:clickable="true">
+            android:layout_height="160dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -44,6 +42,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="21dp"
                 android:layout_marginBottom="20dp"
+                android:clickable="true"
                 android:background="@color/cardview_dark_background">
 
                 <TextView
@@ -62,13 +61,7 @@
 
                 </TextView>
 
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="118dp"
-                    android:layout_alignParentBottom="true"
-                    android:background="#00000000"
-                    android:padding="5dp">
-                </Button>
+
 
             </RelativeLayout>
 

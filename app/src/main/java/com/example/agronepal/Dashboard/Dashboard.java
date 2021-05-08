@@ -1,12 +1,13 @@
 package com.example.agronepal.Dashboard;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RelativeLayout;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.agronepal.Identify.FlowerClassify;
 import com.example.agronepal.R;
 import com.example.agronepal.agronews.news;
 import com.example.agronepal.blog.MainBlogList;
@@ -35,5 +36,15 @@ public class Dashboard extends AppCompatActivity {
 
             }
         });
+        RelativeLayout oRelativeLayout = (RelativeLayout) findViewById(R.id.relative_layout);
+        oRelativeLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent startActivityIntent = new Intent(getApplicationContext(), FlowerClassify.class);
+                startActivity(startActivityIntent);
+
+            }
+        });
     }
+
 }
