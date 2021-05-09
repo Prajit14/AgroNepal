@@ -146,6 +146,7 @@
             android:layout_width="match_parent"
             android:layout_height="130dp"
             android:layout_margin="20dp"
+            android:id="@+id/relative_layout_3"
             android:background="@drawable/solidcolor">
 
             <ImageView
@@ -159,7 +160,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Details"
+                android:text="About"
                 android:textSize="40sp"
                 android:padding="25dp"
                 android:layout_alignParentRight="true"

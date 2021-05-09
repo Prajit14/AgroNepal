@@ -57,7 +57,6 @@ public class FlowerClassify extends AppCompatActivity {
     Uri imageuri;
     Button buclassify;
     TextView classitext;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 

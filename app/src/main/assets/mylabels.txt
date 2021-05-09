@@ -1,0 +1,17 @@
+0 Daffodil
+1 SnowDrop
+2 LilyValley
+3 BlueBell
+4 Crocus
+5 Iris
+6 Tigerlily
+7 Tulip
+8 Fritillary
+9 Sunflower
+10 Daisy
+11 Colt'sFoot
+12 Dandelion
+13 Cowslip
+14 Daffodoil
+15 Windflower
+16 Pansy

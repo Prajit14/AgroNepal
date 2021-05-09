@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AgroNepal">
-        <activity android:name=".Identify.FlowerClassify"></activity>
+        <activity android:name=".AboutPage.about"></activity>
+        <activity android:name=".Identify.FlowerClassify" />
         <activity android:name=".blog.Potato" />
         <activity android:name=".blog.Maize" />
         <activity android:name=".blog.Wheat" />
