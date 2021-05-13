@@ -14,8 +14,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        app:title="News"
-        app:titleTextColor="@android:color/background_dark"/>
+        app:titleTextColor="@android:color/background_dark">
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="News"
+             android:textSize="40sp"
+             android:textAlignment="center"
+             android:fontFamily="@font/amarante"
+             android:textStyle="bold"/>
+    </androidx.appcompat.widget.Toolbar>
     
     <androidx.recyclerview.widget.RecyclerView
         android:padding="10dp"

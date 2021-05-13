@@ -20,7 +20,8 @@ import com.example.agronepal.R;
 import com.google.gson.Gson;
 
 public class news extends AppCompatActivity {
-     Toolbar toolbar;
+
+    Toolbar toolbar;
      RecyclerView recyclerView;
      RSSObject rssObject;
 
@@ -33,9 +34,9 @@ public class news extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_news);
 
-        //toolbar = (Toolbar)findViewById(R.id.toolbar);
-        //toolbar.setTitle("App News");
-        //setSupportActionBar(toolbar);
+/*        toolbar = (Toolbar)findViewById(R.id.toolbar);
+        toolbar.setTitle("App News");
+        setSupportActionBar(toolbar);*/
 
         recyclerView = (RecyclerView)findViewById(R.id.recyclerView);
         LinearLayoutManager linearLayoutManager  = new LinearLayoutManager(getBaseContext(),LinearLayoutManager.VERTICAL,false);
@@ -54,7 +55,7 @@ public class news extends AppCompatActivity {
 
             @Override
             protected void onPreExecute() {
-                mdialog.setMessage("please have patient...");
+                mdialog.setMessage("please wait the news is loading...");
                 mdialog.show();
             }
             @SuppressLint("StaticFieldLeak")

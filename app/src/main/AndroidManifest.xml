@@ -19,7 +19,6 @@
         <activity android:name=".blog.Rice" />
         <activity android:name=".blog.MainBlogList" />
         <activity android:name=".agronews.news" />
-        <activity android:name=".News.newspage" />
         <activity android:name=".Dashboard.Dashboard" />
         <activity android:name=".MainActivity">
             <intent-filter>

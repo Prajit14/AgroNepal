@@ -33,14 +33,13 @@ android {
     aaptOptions{
         noCompress "tflite"
     }
-
 }
-
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.3.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    //tensorflow Dependencies
     implementation 'org.tensorflow:tensorflow-lite-support:0.1.0-rc1'
     implementation 'org.tensorflow:tensorflow-lite-metadata:0.1.0-rc1'
     testImplementation 'junit:junit:4.+'
@@ -55,12 +54,7 @@ dependencies {
     // For control over item selection of both touch and mouse driven selection
     implementation "androidx.recyclerview:recyclerview-selection:1.1.0"
     implementation "com.google.code.gson:gson:2.8.5"
-
-    implementation 'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
-    implementation 'com.soundcloud.android:android-crop:1.0.1@aar'
-
     //adding gitgub library for about page...
     implementation 'com.github.medyo:android-about-page:1.3.1'
-
 
 }
