@@ -12,6 +12,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.agronepal.Dashboard.Dashboard;
 
+
+/*
+This is the Splash Screen Activity Page
+*/
+
 public class MainActivity extends AppCompatActivity {
 
     private  static int SPLASH_SCREEN =4000;
